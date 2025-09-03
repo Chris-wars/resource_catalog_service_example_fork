@@ -859,5 +859,19 @@
     "ratingValue": 3,
     "userId": "user-021",
     "timestamp": "2024-02-24T10:00:00.000Z"
-  }
+  },
+  {
+    "id": "rate-6916542d-f933-40e9-a359-f30a9e7f7301",
+    "resourceId": "res-9a0b1c2d-3e4f-5a6f-7c8d-9e0f1a2b0024",
+    "ratingValue": 4,
+    "userId": "user-025",
+    "timestamp": "2024-01-08T09:30:00.000Z"
+  },
+  {
+    "id": "rate-6916542d-f933-40e9-a359-f30a9e7f7302",
+    "resourceId": "res-0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c0025",
+    "ratingValue": 5,
+    "userId": "user-029",
+    "timestamp": "2024-04-03T16:00:00.000Z"
+  } 
 ]

@@ -376,7 +376,6 @@ router.post('/:resourceId/feedback', validateFeedback, async (req, res, next) =>
     feedback.push(newFeedback);
     await writeData(FEEDBACK_FILE, feedback);
 
-    const enriched = buildEnrichedResource(resource, ratings, feedback);
     res.status(201).json(enriched);
   } catch (error) {
     console.error(`Fehler beim Hinzufügen von Feedback für Ressource ${req.params.resourceId}:`, error);
