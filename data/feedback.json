@@ -1055,5 +1055,12 @@
     "feedbackText": "Wie Gut!!!",
     "userId": "anonymous",
     "timestamp": "2025-08-29T08:26:51.624Z"
+  },
+  {
+    "id": "6bcecae2-99ac-4715-bbd1-99946afad0d0",
+    "resourceId": "res-e6f7a8b9-c0d1-4e2a-8f3b-1c4d5e6f7004",
+    "feedbackText": "This book could use more advanced examples for Pandas.",
+    "userId": "user-new-002",
+    "timestamp": "2025-09-18T10:26:34.428Z"
   }
 ]
