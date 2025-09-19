@@ -11,7 +11,7 @@ export async function buildEnrichedResource(resource) {
 
   const [avgDoc] = await Rating.aggregate([
     { $match: { resourceId: _id } },
-    { $group: { _id: null, avg: { $avg: "ratingValue" } } }
+    { $group: { _id: null, avg: { $avg: "$ratingValue" } } }
   ]);
 
   const avgRating = avgDoc?.avg ?? 0;
